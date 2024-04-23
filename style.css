@@ -1,27 +1,52 @@
 @charset "UTF-8";
 body{
-    background-color: black;
-    color: black;
-    font-size: 15pt;
+    background-image: linear-gradient(90deg, green, blue);
+    color: rgb(128, 184, 179);
+    font-size: 12pts;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 h1{
-   color: blue;
+   color: black;
    font-size: 30pt;
    font-family: "Times New Roman";
    text-align: center;
 }
 h2{
-    color: darkblue;
+    color: black;
     font-size: 30pt;
     font-family: "Times New Roman";
     text-align: center;
 
 }
 li{
-    color: red;
+    color: green;
     font-size: 30pt;
     font-family: "Times New Roman";
     text-align: center;
+}
+
+a{
+    color: black;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    font-size: 20pt;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+.impar{
+   color: red;
+   font-size: 16pt;
+   font-family: Arial;
+}
+
+.par{
+color: blue;
+font-size: 20pt;
+font-family: Verdana;
 }
